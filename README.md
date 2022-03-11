@@ -12,5 +12,5 @@ I had to make an app work on centos7 and it took me a little longer than I care 
 
 ### Usage
 ```
-docker run -v /home/project/src/:/home/rust/src joshuanitschke/rust-centos7-openssl-libxml2-xmlsec1-builder:tagname cargo build --release
+docker run -v /home/project/src/:/home/rust/src joshuanitschke/rust-centos7-openssl-libxml2-xmlsec1-builder:latest cargo build --release
 ```
